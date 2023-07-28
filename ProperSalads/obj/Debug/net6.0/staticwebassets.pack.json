@@ -1,0 +1,785 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProperSalads.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProperSalads.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\charts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\charts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\forms\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\forms\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\icons\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\icons\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\samples\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\samples\\lock-screen.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\lock-screen.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\samples\\login-2.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\login-2.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\samples\\register-2.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\register-2.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\tables\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\tables\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\ui-features\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\ui-features\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\partials\\_settings-panel.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\partials\\_settings-panel.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\NotFound.css",
+      "PackagePath": "staticwebassets\\assets\\css\\NotFound.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\NotFound.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\NotFound.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\basket.css",
+      "PackagePath": "staticwebassets\\assets\\css\\basket.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\basket.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\basket.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\create.css",
+      "PackagePath": "staticwebassets\\assets\\css\\create.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\create.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\create.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\detail.css",
+      "PackagePath": "staticwebassets\\assets\\css\\detail.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\detail.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\detail.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\header-footer.css",
+      "PackagePath": "staticwebassets\\assets\\css\\header-footer.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\header-footer.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\header-footer.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\menu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\shop.css",
+      "PackagePath": "staticwebassets\\assets\\css\\shop.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\shop.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\shop.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\fonts\\AnekTamil-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AnekTamil-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\fonts\\AnekTamil-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AnekTamil-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\fonts\\AnekTamil-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AnekTamil-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\FruitsProcess.png",
+      "PackagePath": "staticwebassets\\assets\\images\\FruitsProcess.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\Orchard.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Orchard.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\PageLogo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PageLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\PageLogo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\PageLogo2.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\SliderLogo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\SliderLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\account-background.png",
+      "PackagePath": "staticwebassets\\assets\\images\\account-background.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\appStore.png",
+      "PackagePath": "staticwebassets\\assets\\images\\appStore.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\banansefteli.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banansefteli.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\customizeFruit.png",
+      "PackagePath": "staticwebassets\\assets\\images\\customizeFruit.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\deliveryIcon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\deliveryIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit1.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit10.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit11.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit12.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit13.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit14.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit15.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit16.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit16.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit17.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit17.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit18.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit18.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit19.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit19.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit2.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit20.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit20.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit21.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit21.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit22.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit22.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit23.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit23.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit24.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit24.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit25.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit25.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit3.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit4.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit5.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit6.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit7.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit8.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\fruit9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fruit9.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\kiviciyelek.png",
+      "PackagePath": "staticwebassets\\assets\\images\\kiviciyelek.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\menuImg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\menuImg.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix1.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix10.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix11.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix12.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix2.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix3.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix4.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix5.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix6.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix7.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix8.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\mix9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\mix9.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\morBanan.png",
+      "PackagePath": "staticwebassets\\assets\\images\\morBanan.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\nuts1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\nuts1.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\nuts2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\nuts2.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\nuts5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\nuts5.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\playStore.png",
+      "PackagePath": "staticwebassets\\assets\\images\\playStore.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\seeds1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\seeds1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\seeds2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\seeds2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\uzumbanan.png",
+      "PackagePath": "staticwebassets\\assets\\images\\uzumbanan.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\images\\yourBowl.png",
+      "PackagePath": "staticwebassets\\assets\\images\\yourBowl.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\js\\NotFound.js",
+      "PackagePath": "staticwebassets\\assets\\js\\NotFound.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\js\\header-footer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\header-footer.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\source\\repos\\ProperSalads\\ProperSalads\\wwwroot\\assets\\js\\shop.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProperSalads.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProperSalads.props",
+      "PackagePath": "build\\ProperSalads.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProperSalads.props",
+      "PackagePath": "buildMultiTargeting\\ProperSalads.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProperSalads.props",
+      "PackagePath": "buildTransitive\\ProperSalads.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
