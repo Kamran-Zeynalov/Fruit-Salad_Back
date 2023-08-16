@@ -3,9 +3,8 @@
     public class Fruit : BaseModel
     {
         public string? Name { get; set; }
-        public string? Vitamin { get; set; }
-        public int Cal { get; set; }
-        public List<SaladAndFruit>? SaladAndFruits { get; set; }
-        public List<Vitamin>? Vitamins { get; set; }
+        public int Ckal { get; set; }
+        public ICollection<SaladAndFruit>? SaladAndFruits { get; set; }
+        public ICollection<FruitVitamin>? fruitSaladVitamins { get; set; }
     }
 }

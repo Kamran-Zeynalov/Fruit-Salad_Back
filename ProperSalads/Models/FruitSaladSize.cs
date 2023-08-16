@@ -1,11 +1,11 @@
 ﻿namespace ProperSalads.Models
 {
-    public class SaladAndFruit : BaseModel
+    public class FruitSaladSize : BaseModel
     {
-        public int FruitId { get; set; }
         public int FruitSaladId { get; set; }
-        public Fruit? Fruit { get; set; }
+        public int SizeId { get; set; }
         public FruitSalad? FruitSalad { get; set; }
+        public Size? Size { get; set; }
 
 
     }

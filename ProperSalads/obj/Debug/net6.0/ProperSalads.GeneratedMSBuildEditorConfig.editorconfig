@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kzeyn\source\repos\ProperSalads\ProperSalads
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/kzeyn/source/repos/ProperSalads/ProperSalads/Areas/SaladsOfAdmin/Views/FruitSalad/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2FsYWRzT2ZBZG1pblxWaWV3c1xGcnVpdFNhbGFkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kzeyn/source/repos/ProperSalads/ProperSalads/Areas/SaladsOfAdmin/Views/Settings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2FsYWRzT2ZBZG1pblxWaWV3c1xTZXR0aW5nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

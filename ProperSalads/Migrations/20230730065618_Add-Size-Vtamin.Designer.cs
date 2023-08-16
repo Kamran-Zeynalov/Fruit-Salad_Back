@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProperSalads.DAL;
 
@@ -10,9 +11,10 @@ using ProperSalads.DAL;
 namespace ProperSalads.Migrations
 {
     [DbContext(typeof(SaladPageDbContext))]
-    partial class SaladPageDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230730065618_Add-Size-Vtamin")]
+    partial class AddSizeVtamin
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -54,6 +56,9 @@ namespace ProperSalads.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Vitamin")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
