@@ -1,0 +1,47 @@
+﻿@model List<FruitSalad>
+@{
+    string[] a = { "asdasd", "asdasda", "asdasaf", "asdasag" };
+}
+@foreach(var item in Model){
+    <div class="col-lg-3 col-md-6">
+        <div class="image-info">
+            <div class="image-icon">
+                <div class="image">
+                    <img src="~/assets/images/@item.GetFruitsaladImages?.Path" alt="Product">
+                </div>
+                <div class="heartIcon">
+                    <i class="bi bi-heart"></i>
+                </div>
+            </div>
+            <div class="info">
+                <div class="rating">
+                    <div class="star-icon">
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <div class="point">
+                        <p>4.7</p>
+                    </div>
+                </div>
+
+                <div class="name-comp">
+                    <h3 style ="font-size:22px"><a href="./detail.html">@(item.Name.Length > 14 ? item.Name.Substring(0,14) + "..." : item.Name)</a></h3>
+                   <p>
+                        @foreach (var fruit in item.SaladAndFruits.Take(2))
+                        {
+                            @(fruit.Fruit.Name)
+
+                            @(fruit != item.SaladAndFruits.Skip(1).FirstOrDefault() ? ", " : "")
+                        }
+                        @if (item.SaladAndFruits.Count > 2)
+                        {
+                            <text> ...</text>
+                        }
+                    </p>
+                </div>
+                <div class="dollar-price">
+                    $<span class="price">@item.Price</span>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -10,6 +10,7 @@
         public List<FruitSaladSize>? fruitSaladSizes { get; set; }
 
         public List<Feedback>? FeedBacks { get; set; }
+        public virtual FruitsaladImages? GetFruitsaladImages { get; set; }
 
 
 

@@ -18,6 +18,12 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="~/assets/css/header-footer.css">
     <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/css/shop.css">
+    <link rel="stylesheet" href="~/assets/css/basket.css>
+    <link rel="stylesheet" href="~/assets/css/create.css">
+    <link rel="stylesheet" href="~/assets/css/detail.css">
+    <link rel="stylesheet" href="~/assets/css/menu.css">
+    <link rel="stylesheet" href="~/assets/css/.css">
     <title>Home Page</title>
 </head>
 
@@ -35,7 +41,7 @@
                 <div class="col-lg-5 d-lg-block d-none mt-2">
                     <div class="menu">
                         <ul class="ulMenu">
-                            <li><a href="./shop.html">Fruit mix</a></li>
+                            <li><a asp-controller="FruitSalad" asp-action="Index">Fruit mix</a></li>
                             <li><a href="./create.html">Customize</a></li>
                             <li><a href="">Contact us</a></li>
                             <li><a href="">About us</a></li>
@@ -195,28 +201,34 @@
                 <div class="col-lg-2 col-6 footerInfos">
                     <h4>Corporate</h4>
                     <ul>
-                        <li>Privacy policy</li>
-                        <li>Terms & Conditions</li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-6 footerInfos">
                     <h4>Growing Fruits</h4>
                     <ul>
-                        <li>FAQ</li>
-                        <li>Special offers</li>
+                        <li> <a href="">FAQ</a></li>
+                        <li><a href="">Special offers</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-6 contact">
                     <h4>Contact</h4>
                     <ul>
                         <li>
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <a href="" style="color: #2EDC87;">
+                                @Html.Raw(layoutService.GetSettings().FirstOrDefault(ls => ls.Key == "contactFacebook")?.Value)
+                            </a>
                         </li>
                         <li>
-                            <i class="fa-brands fa-instagram"></i>
+                            <a href="" style="color: #2EDC87;">
+                                @Html.Raw(layoutService.GetSettings().FirstOrDefault(ls => ls.Key == "contactInstagram")?.Value)
+                            </a>
                         </li>
                         <li>
-                            <i class="fa-brands fa-twitter"></i>
+                            <a href="" style="color: #2EDC87;">
+                                @Html.Raw(layoutService.GetSettings().FirstOrDefault(ls => ls.Key == "contactTwitter")?.Value)
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -237,6 +249,9 @@
             integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="~/assets/js/header-footer.js"></script>
+    <script src="~/assets/js/shop.js"></script>
+    <script src="~/assets/js/NotFound.js"></script>
+
 </body>
 
 </html>

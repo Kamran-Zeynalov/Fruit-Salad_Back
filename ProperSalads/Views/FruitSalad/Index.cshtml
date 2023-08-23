@@ -1,0 +1,325 @@
+﻿@{
+    ViewData["Title"] = "Shop Page";
+    List<FruitSalad> fruitSalads = ViewBag.Products;
+}
+
+<div class="container">
+    <div class="row salad-background">
+        <div class=" col-12 passage">
+            <span><a href="./index.html" class="home">Home</a></span> /
+            <span><a href="./shop.html" class="shop">Fruit mix</a></span>
+        </div>
+        <div class="col-9 page-name">
+            <h1>Fruit mix</h1>
+        </div>
+        <!-- <div class="col-3">
+            <select name="letter" id="letter">
+                <option value="A-Z">A-Z</option>
+                <option value="Z-A">Z-A</option>
+            </select>
+        </div> -->
+    </div>
+</div>
+
+<section id="Filter">
+    <div class="container">
+        <div class="row mt-3">
+
+            <div class="col-lg-3 d-lg-block d-none filters">
+                <div class="title-categories">
+                    <div class="title">
+                        <h5>Categories</h5>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="categories">
+                        <ul>
+                            <li class="fruit-categories">
+                                Basic fruits
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="basic1"><label for="basic1">Apple</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="basic2"><label for="basic2">Banana</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="basic3"><label for="basic3">Orange</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="basic4"><label for="basic4">Strawberry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="basic5"><label for="basic5">Kiwi</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="basic6"><label for="basic6">Mango</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="basic7"><label for="basic7">Watermelon</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="basic8"><label for="basic8">Grape</label>
+                                </li>
+                            </ul>
+                            <li class="fruit-categories">
+                                Soft fruits
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="soft1"><label for="soft1">Avocado</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="soft2"><label for="soft2">Peach</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="soft3"><label for="soft3">Nectarine</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="soft4"><label for="soft4">Plum</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="soft5"><label for="soft5">Apricot</label>
+                                </li>
+                            </ul>
+                            <li class="fruit-categories">
+                                Tropical fruits
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="trop1"><label for="trop1">Pineapple</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="trop2"><label for="trop2">Papaya</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="trop3"><label for="trop3">Guava</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="trop4"><label for="trop4">Mango</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="trop5"><label for="trop5">Kumquat</label>
+                                </li>
+                            </ul>
+                            <li class="fruit-categories">
+                                Dried fruits
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="dried1"><label for="dried1">Raisins</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="dried2"><label for="dried2">
+                                        Dried
+                                    </label>apricots
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="dried3"><label for="dried3">
+                                        Dried
+                                    </label>figs
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="dried4"><label for="dried4">Dates</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="dried5"><label for="dried5">Blueberries</label>
+                                </li>
+                            </ul>
+                            <li class="fruit-categories">
+                                Nuts and Seeds
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="nuts1"><label for="nuts1">Almonds</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="nuts2"><label for="nuts2">Walnuts</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="nuts3"><label for="nuts3">Peanuts</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="nuts4"><label for="nuts4">Pine</label> nuts
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="nuts5"><label for="nuts5">Pumpkin</label> seeds
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="nuts6"><label for="nuts6">Sesame</label> seeds
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="nuts7"><label for="nuts7">Chia</label> seeds
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="title-calori">
+                    <div class="title">
+                        <h5>Calories</h5>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="calories">
+                        <form action="">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="select" value="few" id="few">
+                                        <label for="few">0-500 k.kal</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="select" id="little">
+                                        <label for="little">500-1000 k.kal</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="select" id="many">
+                                        <label for="many">1000+ k.kal</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div class="title-taste">
+                    <div class="title">
+                        <h5>Taste</h5>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="taste">
+                        <form action="">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="taste" value="sweet" id="sweet">
+                                        <label for="sweet">Sweet</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="taste" value="sour" id="sour">
+                                        <label for="sour">Sour</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="radio" name="taste" value="sweet-sour" id="sweet-sour">
+                                        <label for="sweet-sour">Sweer-sour</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div class="title-season">
+                    <div class="title">
+                        <h5>Season Fruits</h5>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="season">
+                        <ul>
+                            <li class="fruit-season">
+                                Summer fruits
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="summer1"><label for="summer1">Stawberry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="summer2"><label for="summer2">Cherry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="summer3"><label for="summer3">Watermelon</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="summer4"><label for="summer4">Blueberries</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="summer5"><label for="summer5">Mulberry</label>
+                                </li>
+                            </ul>
+                            <li class="fruit-season">
+                                Autumn fruits
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="autumn1"><label for="autumn1">Stawberry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="autumn2"><label for="autumn2">Cherry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="autumn3"><label for="autumn3">Watermelon</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="autumn4"><label for="autumn4">Blueberries</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="autumn5"><label for="autumn5">Mulberry</label>
+                                </li>
+                            </ul>
+                            <li class="fruit-season">
+                                Winter fruits
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="winter1"><label for="winter1">Stawberry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="winter2"><label for="winter2">Cherry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="winter3"><label for="winter3">Watermelon</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="winter4"><label for="winter4">Blueberries</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="winter5"><label for="winter5">Mulberry</label>
+                                </li>
+                            </ul>
+                            <li class="fruit-season">
+                                Spring fruits
+                                <i class="bi bi-chevron-down"></i>
+                            </li>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="spring1"><label for="spring1">Stawberry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="spring2"><label for="spring2">Cherry</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="spring3"><label for="spring3">Watermelon</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="spring4"><label for="spring4">Blueberries</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="fruit" id="spring5"><label for="spring5">Mulberry</label>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-12">
+                <div class="row gx-5 gy-4">
+                    @await Html.PartialAsync("_FruitSaladPartial",fruitSalads)
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -17,6 +17,8 @@ namespace ProperSalads.DAL
         public DbSet<FruitVitamin> FruitSaladVitamins { get; set; }
         public DbSet<Size> Sizes { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
+        public DbSet<FruitsaladImages> FruitsaladImages { get; set; }
+
 
 
 
