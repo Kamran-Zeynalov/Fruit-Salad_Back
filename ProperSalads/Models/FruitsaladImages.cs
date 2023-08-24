@@ -2,7 +2,7 @@
 
 namespace ProperSalads.Models
 {
-    public class FruitsaladImages
+    public class FruitsaladImages : BaseModel
     {
         [ForeignKey("FruitSalad")]
         public int Id { get; set; }

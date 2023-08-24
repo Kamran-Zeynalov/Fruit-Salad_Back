@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="name-comp">
-                    <h3 style ="font-size:22px"><a href="./detail.html">@(item.Name.Length > 14 ? item.Name.Substring(0,14) + "..." : item.Name)</a></h3>
+                    <h3 style ="font-size:22px"><a asp-controller="FruitSalad" asp-action="Detail" asp-route-id="@item.Id">@(item.Name.Length > 14 ? item.Name.Substring(0,14) + "..." : item.Name)</a></h3>
                    <p>
                         @foreach (var fruit in item.SaladAndFruits.Take(2))
                         {

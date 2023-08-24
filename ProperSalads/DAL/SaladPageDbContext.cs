@@ -18,6 +18,9 @@ namespace ProperSalads.DAL
         public DbSet<Size> Sizes { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
         public DbSet<FruitsaladImages> FruitsaladImages { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<FruitCategory> FruitCategories { get; set; }
+
 
 
 

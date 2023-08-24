@@ -1,0 +1,179 @@
+﻿@model FruitSalad
+@{
+    ViewData["Title"] = "Detail Page";
+    List<FruitSalad> fruitSalads = ViewBag.Products;
+    List<Fruit> allFruits = ViewBag.AllFruits;
+}
+
+    <div class="container">
+        <div class="row mb-3 salad-background">
+            <div class=" col-12 passage">
+                <span><a asp-controller="Home" asp-action="Index" class="home">Home</a></span> /
+                <span><a asp-controller="FruitSalad" asp-action="Index" class="shop">Fruit mix</a></span> /
+            <span><a asp-controller="FruitSalad" asp-action="Detail" class="detail">Acai Superberry Bowl</a></span>
+            </div>
+        </div>
+    </div>
+
+    <section id="Detail">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6">
+                    <div class="image">
+                        <img src="~/assets/images/@Model.GetFruitsaladImages?.Path" alt="FruitSalad">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="">
+                        <div class="name-price">
+                            <h1>@Model.Name</h1>
+                            <p>$<span>@Model.Price</span></p>
+                        </div>
+                        <div class="rating">
+                            <div class="star-icon">
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div class="point">
+                                <p>4.7</p>
+                            </div>
+                            <div class="review">
+                                <p>Feedback <i class="bi bi-chevron-right"></i></p>
+                            </div>
+                        </div>
+                        <div class="composition">
+                            @foreach (var item in Model.SaladAndFruits)
+                        {
+                            <div class="fruit">
+                                <p>@item.Fruit.Name</p>
+                            </div>
+                        }
+                        </div>
+                        <div class="case-size">
+                            <div class="select-size">
+                            <h4>Select sizes by calorie</h4>
+                            </div>
+                            <div class="sizes">
+                                <ul>
+                                @foreach (var item in Model.SaladAndFruits)
+                                {
+                                    <li>
+                                        <p>Calories: <span>@item.Fruit?.Ckal </span></p><input type="radio" name="size" id="classic" checked>
+                                    </li>
+                                }
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="toppings">
+                            <div class="add-toppings">
+                                <h4>
+                                    Add toppings
+                                </h4>
+                            </div>
+                            <div class="topping-fruit">
+                                @foreach (var item in allFruits)
+                            {
+                                <div class="image-name">
+                                    <div class="image">
+                                        <img src="~/assets/images/@item.Image" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <p>@item.Name</p>
+                                    </div>
+                                </div>
+                            }
+                               
+                            </div>
+                        </div>
+                        <div class="quantity-order">
+                            <div class="name">
+                                <h4>Quantity</h4>
+                            </div>
+                            <div class="quantity">
+                                <input type="number" name="" id="" value="1">
+                            </div>
+                            <div class="order">
+                                <div class="button">
+                                    <button type="submit">Add to Order - $@Model.Price</button>
+                                </div>
+                                <div class="save-icon">
+                                    <i class="bi bi-bookmark-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Vitamins">
+        <div class="container">
+            <div class="row gx-5 gy-5">
+                <div class="col-lg-6">
+                    <div class="vita">
+                        <div class="title">
+                            <h4>Allergens</h4>
+                        </div>
+                        <div class="fruit-info">
+                            <div class="fruit-name-image">
+                                <div class="name">
+                                    <h6>Strawberry</h6>
+                                </div>
+                                <div class="image">
+                                    <img src="~/assets/images/fruit8.png" alt="">
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Strawberry fruit contain the allergenic Fra a proteins, members of the
+                                    pathogenesis-related 10 protein family that causes oral allergic syndrome symptoms.
+                                    Fra a proteins are involved in the flavonoid biosynthesis pathway, which might be
+                                    important for color development in fruits.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="vita">
+                        <div class="title">
+                            <h4>Allergens</h4>
+                        </div>
+                        <div class="fruit-info">
+                            <div class="fruit-name-image">
+                                <div class="name">
+                                    <h6>Strawberry</h6>
+                                </div>
+                                <div class="image">
+                                    <img src="~/assets/images/fruit8.png" alt="">
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    Strawberry fruit contain the allergenic Fra a proteins, members of the
+                                    pathogenesis-related 10 protein family that causes oral allergic syndrome symptoms.
+                                    Fra a proteins are involved in the flavonoid biosynthesis pathway, which might be
+                                    important for color development in fruits.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="SpecialOffers">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="specialTitle col-lg-6 col-12">
+                    <h1>Special offers</h1>
+                </div>
+                <div class="seeMore col-lg-6 col-12">
+                    <p><a href="./shop.html">See more detail</a></p>
+                </div>
+            @await Html.PartialAsync("_FruitSaladPartial",fruitSalads)
+            </div>
+        </div>
+    </section>
+
